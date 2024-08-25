@@ -7,7 +7,7 @@ Install the renv R package and set renv cache to a Docker volume. Cache is share
 
 ```json
 "features": {
-    "ghcr.io/rocker-org/devcontainer-features/renv-cache:0": {}
+    "ghcr.io/h4rvey-g/rocker-devcontainer-features/renv-cache:0": {}
 }
 ```
 
@@ -60,4 +60,4 @@ and is shared among multiple containers.
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/rocker-org/devcontainer-features/blob/main/src/renv-cache/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/h4rvey-g/rocker-devcontainer-features/blob/main/src/renv-cache/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

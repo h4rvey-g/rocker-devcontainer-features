@@ -7,7 +7,7 @@ Installs the RStudio Server, enables to run the RStudio IDE on the browser.
 
 ```json
 "features": {
-    "ghcr.io/rocker-org/devcontainer-features/rstudio-server:0": {}
+    "ghcr.io/h4rvey-g/rocker-devcontainer-features/rstudio-server:0": {}
 }
 ```
 
@@ -126,4 +126,4 @@ Of course, there is no additional R installation when selecting an image that al
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/rocker-org/devcontainer-features/blob/main/src/rstudio-server/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/h4rvey-g/rocker-devcontainer-features/blob/main/src/rstudio-server/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

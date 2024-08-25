@@ -7,7 +7,7 @@ Installs packages via apt.
 
 ```json
 "features": {
-    "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {}
+    "ghcr.io/h4rvey-g/rocker-devcontainer-features/apt-packages:1": {}
 }
 ```
 
@@ -55,4 +55,4 @@ The following example installs the `r-cran-curl` package after the `r-apt` Featu
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/rocker-org/devcontainer-features/blob/main/src/apt-packages/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/h4rvey-g/rocker-devcontainer-features/blob/main/src/apt-packages/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

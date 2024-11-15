@@ -7,7 +7,7 @@ Installs the latest R, some R packages, and needed dependencies. Note: May requi
 
 ```json
 "features": {
-    "ghcr.io/rocker-org/devcontainer-features/r-apt:0": {}
+    "ghcr.io/h4rvey-g/rocker-devcontainer-features/r-apt:0": {}
 }
 ```
 
@@ -126,4 +126,4 @@ This feature set `PIP_BREAK_SYSTEM_PACKAGES=1` when installing Python packages.
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/rocker-org/devcontainer-features/blob/main/src/r-apt/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/h4rvey-g/rocker-devcontainer-features/blob/main/src/r-apt/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

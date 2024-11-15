@@ -11,18 +11,13 @@ INSTALL_VSCDEBUGGER=${INSTALLVSCDEBUGGER:-"false"}
 INSTALL_BSPM=${INSTALLBSPM:-"false"}
 
 USERNAME=${USERNAME:-${_REMOTE_USER:-"automatic"}}
-R_LIBRARY_PATH="/usr/local/lib/R/site-library"
+R_LIBRARY_PATH="/opt/conda/lib/R/library"
 
-APT_PACKAGES=(r-base)
+APT_PACKAGES=()
 PIP_PACKAGES=()
 
 set -e
 
-if R --version >/dev/null 2>&1 && dpkg -s r-base >/dev/null 2>&1; then
-    echo "(!) R has already been installed via a non-apt method."
-    echo "    This script is designed only for non-R Debian and Ubuntu."
-    exit 1
-fi
 
 # Clean up
 rm -rf /var/lib/apt/lists/*

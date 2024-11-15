@@ -7,7 +7,7 @@ Installs Pandoc, a universal document converter.
 
 ```json
 "features": {
-    "ghcr.io/rocker-org/devcontainer-features/pandoc:1": {}
+    "ghcr.io/h4rvey-g/rocker-devcontainer-features/pandoc:1": {}
 }
 ```
 
@@ -45,4 +45,4 @@ For example, if version `2.17` is specified as follows, version `2.17.1.1` will 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/rocker-org/devcontainer-features/blob/main/src/pandoc/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/h4rvey-g/rocker-devcontainer-features/blob/main/src/pandoc/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

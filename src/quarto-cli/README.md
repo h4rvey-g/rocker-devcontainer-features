@@ -7,7 +7,7 @@ Installs the Quarto CLI. Auto-detects latest version.
 
 ```json
 "features": {
-    "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {}
+    "ghcr.io/h4rvey-g/rocker-devcontainer-features/quarto-cli:1": {}
 }
 ```
 
@@ -126,4 +126,4 @@ You can also specify a version number, like `"1"`, `"1.2"`, `"1.0.38"`.
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/rocker-org/devcontainer-features/blob/main/src/quarto-cli/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/h4rvey-g/rocker-devcontainer-features/blob/main/src/quarto-cli/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

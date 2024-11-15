@@ -184,7 +184,7 @@ chmod g+ws "${R_LIBRARY_PATH}"
 install_pip_packages ${PIP_PACKAGES[*]}
 
 # Install pak
-echo 'options(repos = c(CRAN = "http://cran.rstudio.com"))' >> /etc/R/Rprofile.site
+echo 'options(repos = c(CRAN = "https://packagemanager.posit.co/cran/latest"))' >> /etc/R/Rprofile.site
 R -q -e 'install.packages("pak")'
 if [ "${ID}" = "debian" ] && [ "${install_languageserver}" = "true" ]; then
     check_packages \

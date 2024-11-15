@@ -185,7 +185,7 @@ install_pip_packages ${PIP_PACKAGES[*]}
 
 # Install pak
 echo 'options(repos = c(CRAN = "https://packagemanager.posit.co/cran/latest"))' >> /etc/R/Rprofile.site
-R -q -e 'install.packages("pak")'
+R -q -e 'install.packages("pak", repos = "https://mirrors.tuna.tsinghua.edu.cn/CRAN/")'
 if [ "${ID}" = "debian" ] && [ "${install_languageserver}" = "true" ]; then
     check_packages \
         gcc \

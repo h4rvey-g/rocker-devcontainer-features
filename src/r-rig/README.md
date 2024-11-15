@@ -7,7 +7,7 @@ Installs R, some R packages, and needed dependencies. Note: May require source c
 
 ```json
 "features": {
-    "ghcr.io/rocker-org/devcontainer-features/r-rig:1": {}
+    "ghcr.io/h4rvey-g/rocker-devcontainer-features/r-rig:1": {}
 }
 ```
 
@@ -112,4 +112,4 @@ This feature set `PIP_BREAK_SYSTEM_PACKAGES=1` when installing Python packages.
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/rocker-org/devcontainer-features/blob/main/src/r-rig/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/h4rvey-g/rocker-devcontainer-features/blob/main/src/r-rig/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
